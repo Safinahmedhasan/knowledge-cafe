@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 .totalReadTime{
-    width: 500px;
+    width: 800px;
 }
 
 .bookmark {
@@ -14,6 +14,26 @@
     padding: 10px;
     padding-left: 20px;  
 }
+.sum-question{
+    text-align: center;
+    border: 5px solid #0044ff;
+    border-radius: 8px;
+    color: #6047EC;
+    padding: 15px;
+    text-align: center;
+    width: 80%;
+    margin-top: -90px;
+    margin-bottom: 20px;
+}
+.question{
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    color: #6047EC;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
 @media screen and (max-width:576px) {
     .shop-container {
         display: flex;
@@ -22,5 +42,8 @@
     }
     .totalReadTime{
         width: 400px;
+    }
+    .sum-question{
+        margin-top: 10px;
     }
 }
