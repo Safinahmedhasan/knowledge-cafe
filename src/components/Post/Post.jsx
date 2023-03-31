@@ -7,8 +7,7 @@ const Post = (props) => {
     const { img, read, author, title, authorImg, hashtag } = props.post;
 
     const  handleAddToReadTime = props.handleAddToReadTime;
-
-    
+    const  handleAddToTitle = props.handleAddToTitle;
 
     return (
         <div className='post-section'>
@@ -21,15 +20,15 @@ const Post = (props) => {
                         <p className='author-post-date'>Mar 14 (4 Days ago)</p>
                     </div>
                     <div className='read-time'>
-                             <button  onClick={() =>handleAddToReadTime(props.post)}>{read} min read</button>
-                             <button><FontAwesomeIcon icon={faBookmark} /></button>
+                             <span>{read} min read</span>
+                             <button onClick={()=>handleAddToTitle(props.post.title)}><FontAwesomeIcon icon={faBookmark} /></button>
                     </div>
                 </div>
             </div>
             <h2 className='post-title'>{title}</h2>
             <p className='hashtag'>{hashtag}</p>
 
-           <button><p className='make-as-read-button'>Mark as read</p></button>
+           <button onClick={() =>handleAddToReadTime(props.post)} ><p className='make-as-read-button'>Mark as read</p></button>
         </div>
     );
 };

@@ -1,7 +1,8 @@
 .read-time{
     padding-top: 30px;
-    position: sticky;
-    top: 80px;
+    /* position: sticky;
+    top: 80px; */
+    z-index: 10;
 }
 .total-read-time {
     background: rgba(96, 71, 236, 0.1);
