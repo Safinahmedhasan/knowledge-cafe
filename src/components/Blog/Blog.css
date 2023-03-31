@@ -1,14 +1,9 @@
 .shop-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
-
-.post-container {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 45px;
-
+.totalReadTime{
+    width: 500px;
 }
 
 .bookmark {
@@ -17,6 +12,15 @@
     background: #FFFFFF;
     border-radius: 10px;
     padding: 10px;
-    padding-left: 20px;
-    
+    padding-left: 20px;  
+}
+@media screen and (max-width:576px) {
+    .shop-container {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .totalReadTime{
+        width: 400px;
+    }
 }
