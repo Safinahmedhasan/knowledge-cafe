@@ -4,7 +4,11 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './Post.css'
 
 const Post = (props) => {
-    const { img, read, author, title, authorImg, hashtag } = props.blog;
+    const { img, read, author, title, authorImg, hashtag } = props.post;
+
+    const  handleAddToReadTime = props.handleAddToReadTime;
+
+    
 
     return (
         <div className='post-section'>
@@ -17,7 +21,8 @@ const Post = (props) => {
                         <p className='author-post-date'>Mar 14 (4 Days ago)</p>
                     </div>
                     <div className='read-time'>
-                             <button>{read} min read <FontAwesomeIcon icon={faBookmark} /></button>
+                             <button  onClick={() =>handleAddToReadTime(props.post)}>{read} min read</button>
+                             <button><FontAwesomeIcon icon={faBookmark} /></button>
                     </div>
                 </div>
             </div>

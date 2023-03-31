@@ -1,0 +1,14 @@
+.read-time{
+    padding-top: 30px;
+    position: sticky;
+    top: 80px;
+}
+.total-read-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    color: #6047EC;
+    padding: 15px;
+    text-align: center;
+    
+}

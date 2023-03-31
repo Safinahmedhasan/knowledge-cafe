@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Post from '../Post/Post';
+import Read from '../Read/Read';
 import './Blog.css'
 
 const Blog = () => {
 
     const [blog, setBlog] = useState([]);
+    const [read , setRead] = useState([])
 
     useEffect( () => {
         fetch('blog.json')
@@ -12,7 +14,10 @@ const Blog = () => {
         .then(data => setBlog(data))
     },[])
 
-
+    const handleAddToReadTime = (post) =>{
+        const newRead =[...read , post];
+        setRead(newRead);
+    }
 
     return (
         <div className='shop-container'>
@@ -20,12 +25,13 @@ const Blog = () => {
                 {
                     blog.map(blog => <Post 
                         key={blog.id}
-                        blog={blog}
+                        post={blog}
+                        handleAddToReadTime={handleAddToReadTime}
                     ></Post>)
                 }
             </div>
             <div className='totalReadTime'>
-                <p>hasan</p>
+                <Read read={read}></Read>
             </div>
         </div>
     );
