@@ -12,6 +12,8 @@ const Blog = () => {
         .then(data => setBlog(data))
     },[])
 
+
+
     return (
         <div className='shop-container'>
             <div className='post-container'>
@@ -21,6 +23,9 @@ const Blog = () => {
                         blog={blog}
                     ></Post>)
                 }
+            </div>
+            <div className='totalReadTime'>
+                <p>hasan</p>
             </div>
         </div>
     );
