@@ -66,7 +66,7 @@ const Blog = () => {
             <div className='totalReadTime'>
                 <Read read={read}></Read>
                 <Book title={title}></Book>
-<h2>My Name is Hasan</h2>
+                
             </div>
         </div>
     );
