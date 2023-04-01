@@ -12,7 +12,7 @@
         "read": 10,
         "author": "Mrs. Setara",
         "hashtag":"#beginners #programming" ,
-        "title": "How to get your first job as a self-taught programmer",
+        "title": "React is an efficient, flexible, open-source front-end javaScript library created by FaceBook in 2011.",
         "img": "https://images.unsplash.com/photo-1531741403586-c19915ad5d0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "authorImg": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
     },
@@ -21,7 +21,7 @@
         "read": 12,
         "author": "Mina Mostofa",
         "hashtag":"#beginners #programming" ,
-        "title": "How to get your first job as a self-taught programmer",
+        "title": "React allows server-side rendering, which boosts the SEO of an application.",
         "img": "https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "authorImg": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
     },
@@ -30,7 +30,7 @@
         "read": 15,
         "author": "Sajek Jaman",
         "hashtag":"#beginners #programming" ,
-        "title": "How to get your first job as a self-taught programmer",
+        "title": "useState is one of the built-in React hooks. It allows you to track the state in a functional component in React.",
         "img": "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "authorImg": "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
     }

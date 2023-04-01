@@ -9,6 +9,8 @@ const Post = (props) => {
     const  handleAddToReadTime = props.handleAddToReadTime;
     const  handleAddToTitle = props.handleAddToTitle;
 
+    const notify = () => toast("Wow so easy !");
+
     return (
         <div className='post-section'>
             <img src={img} alt="" />
@@ -22,6 +24,7 @@ const Post = (props) => {
                     <div className='read-time'>
                              <span>{read} min read</span>
                              <button onClick={()=>handleAddToTitle(props.post.title)}><FontAwesomeIcon icon={faBookmark} /></button>
+                             
                     </div>
                 </div>
             </div>

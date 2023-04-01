@@ -21,10 +21,12 @@ const Blog = () => {
         setRead(newRead);
     }
 
+
     const handleAddToTitle = (post) => {
         const newTitle = [...title, <li className='bookmark'>{post}</li>];
         setTitle(newTitle)
     }
+
 
     return (
         <div className='shop-container'>
